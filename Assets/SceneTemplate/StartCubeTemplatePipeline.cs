@@ -16,6 +16,6 @@ public class StartCubeTemplatePipeline : ISceneTemplatePipeline
 
     public virtual void AfterTemplateInstantiation(SceneTemplateAsset sceneTemplateAsset, Scene scene, bool isAdditive, string sceneName)
     {
-
+        Debug.Log("AfterTemplateInstantiation");
     }
 }
